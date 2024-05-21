@@ -1,7 +1,7 @@
 const path = require('path')
 module.exports = {
   version: "1.5",
-  title: "sillytavern",
+  title: "SillyTavern",
   description: "a local-install interface that allows you to interact with text generation AIs (LLMs) to chat and roleplay with custom characters. https://docs.sillytavern.app/",
   icon: "icon.png",
   menu: async (kernel) => {
