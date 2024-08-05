@@ -20,7 +20,6 @@ module.exports = {
         let local = kernel.memory.local[path.resolve(__dirname, "start.js")]
         if (local && local.url) {
           return [{
-            default: true,
             icon: "fa-solid fa-rocket",
             text: "Open Web UI",
             href: local.url,
